@@ -1,0 +1,87 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-21T15:21:58.924Z",
+        "line": 6,
+        "name": "verify produt search",
+        "description": "",
+        "id": "verifying-search-module-of-a-car-guruji-site;verify-produt-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I am on Carguruji site",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I logged in the site with user name as \"\u003cemailAddress\u003e\" password as \"\u003cpasswordAddress\u003e\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I verify my  account title text as \"\u003cmyAccountTitleText\u003e\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I search for desired product as  \"\u003csearchProduct\u003e\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I click to make product search",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I clicked on the selected product of the searched result",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "I verifyed the serched product as \"\u003cvrifyProduct\u003e\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verifying search module of a Car Guruji site",
+    "description": "",
+    "id": "verifying-search-module-of-a-car-guruji-site",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/test.feature",
+    "tags": []
+  }
+]

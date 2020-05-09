@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 1.034 s <<< FAILURE! - in TestSuite
+runner.CukesRunnerTest.setUpClass  Time elapsed: 0.874 s  <<< FAILURE!
+cucumber.runtime.CucumberException: Couldn't load plugin class: summary
+	at runner.CukesRunnerTest.setUpClass(CukesRunnerTest.java:30)
+Caused by: java.lang.ClassNotFoundException: summary
+	at runner.CukesRunnerTest.setUpClass(CukesRunnerTest.java:30)
+
+runner.CukesRunnerTest.tearDownClass  Time elapsed: 0.893 s  <<< FAILURE!
+java.lang.NullPointerException
+	at runner.CukesRunnerTest.tearDownClass(CukesRunnerTest.java:46)
+

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="23.72" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\mrmra\OneDrive\Documents\Testing Resource\SELERNIUM\SeleniumProject\GIT_HUB PROFILE\WebdriverUniversityFinal\FinalCucumberFramework"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\mrmra\OneDrive\Documents\Testing Resource\SELERNIUM\SeleniumProject\GIT_HUB PROFILE\WebdriverUniversityFinal\FinalCucumberFramework"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\mrmra\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\Apach Software Foundation\apache-maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Apach Software Foundation\apache-maven\bin;C:\Program Files\nodejs\;C:\Users\mrmra\AppData\Local\Android\Sdk\tools;C:\Users\mrmra\AppData\Local\Android\Sdk\platform-tools;C:\Users\mrmra\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\Git\cmd;C:\Users\mrmra\AppData\Local\Microsoft\WindowsApps;C:\Users\mrmra\AppData\Roaming\npm;C:\Users\mrmra\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.4\bin;C:\Program Files\Docker Toolbox;."/>
+    <property name="maven.conf" value="C:\Program Files\Apach Software Foundation\apache-maven\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\Apach Software Foundation\apache-maven\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\mrmra"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="mrmra"/>
+    <property name="java.class.path" value="C:\Program Files\Apach Software Foundation\apache-maven\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_211\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Apach Software Foundation\apache-maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="feature" classname="runners.MainRunner" time="12.575">
+    <failure message="java.lang.AssertionError" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.AssertionError
+Caused by: java.lang.AssertionError
+</failure>
+    <system-out><![CDATA[...
+... TestNG 6.9.10 by Cédric Beust (cedric@beust.com)
+...
+
+Feature: Submit data to webdriveruniversity.com using contact us form
+WebElement is visible using locator: <[[ChromeDriver: chrome on XP (266e3710dffc68d3f08e90bb6131b536)] -> xpath: //input[@name='first_name']]]]><![CDATA[>
+Successfully Sent the following keys: 'Tom' to element: <[[ChromeDriver: chrome on XP (266e3710dffc68d3f08e90bb6131b536)] -> xpath: //input[@name='first_name']]]]><![CDATA[>
+WebElement is visible using locator: <[[ChromeDriver: chrome on XP (266e3710dffc68d3f08e90bb6131b536)] -> xpath: //input[@name='last_name']]]]><![CDATA[>
+Successfully Sent the following keys: 'jackson' to element: <[[ChromeDriver: chrome on XP (266e3710dffc68d3f08e90bb6131b536)] -> xpath: //input[@name='last_name']]]]><![CDATA[>
+WebElement is visible using locator: <[[ChromeDriver: chrome on XP (266e3710dffc68d3f08e90bb6131b536)] -> xpath: //input[@name='email']]]]><![CDATA[>
+Successfully Sent the following keys: 'webdriveruniversity@outlook.com' to element: <[[ChromeDriver: chrome on XP (266e3710dffc68d3f08e90bb6131b536)] -> xpath: //input[@name='email']]]]><![CDATA[>
+WebElement is visible using locator: <[[ChromeDriver: chrome on XP (266e3710dffc68d3f08e90bb6131b536)] -> xpath: //textarea[@name='message']]]]><![CDATA[>
+Successfully Sent the following keys: 'example comment two' to element: <[[ChromeDriver: chrome on XP (266e3710dffc68d3f08e90bb6131b536)] -> xpath: //textarea[@name='message']]]]><![CDATA[>
+
+  Scenario: Submit valid data via contact us form                                 # contactus.feature:3
+    Given I access webdriveruniversity contact us form                            # ContactUsSteps.i_access_webdriveruniversity_contact_us_form()
+    When I enter a valid firstname                                                # ContactUsSteps.i_enter_a_valid_firstname()
+    When I enter a valid last name                                                # ContactUsSteps.i_enter_a_valid_last_name(DataTable)
+    And i enter a valid email address                                             # ContactUsSteps.i_enter_a_valid_email_address()
+    And i enter comments                                                          # ContactUsSteps.i_enter_comments(DataTable)
+    When i click on the submit button                                             # ContactUsSteps.i_click_on_the_submit_button()
+      java.lang.AssertionError
+      	at org.junit.Assert.fail(Assert.java:86)
+      	at org.junit.Assert.fail(Assert.java:95)
+      	at pageObjects.ContactUs_Page.clickOnSubmiButton(ContactUs_Page.java:50)
+      	at stepDefinitions.ContactUsSteps.i_click_on_the_submit_button(ContactUsSteps.java:46)
+      	at ?.When i click on the submit button(contactus.feature:11)
+
+    Then the information should successfully be submitted via the contact us form # ContactUsSteps.the_information_should_successfully_be_submitted_via_the_contact_us_form()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 31112
+Only local connections are allowed.
+Apr 21, 2020 2:41:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="runners.MainRunner" time="9.205">
+    <failure message="java.lang.AssertionError" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.AssertionError
+Caused by: java.lang.AssertionError
+</failure>
+    <system-out><![CDATA[Feature: Products page
+
+  Scenario Outline: validate promo code alert is visible when clicking on the special offers link # products.feature:3
+    Given user navigates to "<url>" website
+    When user clicks on "<button>"
+    Then user should be presented with a promo alert
+
+    Examples: 
+
+  Scenario Outline: validate promo code alert is visible when clicking on the special offers link        # products.feature:10
+    Given user navigates to "http://www.webdriveruniversity.com/Page-Object-Model/products.html" website # ProductSteps.user_navigates_to_website(String)
+    When user clicks on "#container-special-offers2"                                                     # ProductSteps.user_clicks_on(String)
+      java.lang.AssertionError
+      	at org.junit.Assert.fail(Assert.java:86)
+      	at org.junit.Assert.fail(Assert.java:95)
+      	at stepDefinitions.ProductSteps.user_clicks_on(ProductSteps.java:20)
+      	at ?.When user clicks on "#container-special-offers2"(products.feature:5)
+
+    Then user should be presented with a promo alert                                                     # ProductSteps.user_should_be_presented_with_a_promo_alert()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb) on port 36736
+Only local connections are allowed.
+Apr 21, 2020 2:41:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>
